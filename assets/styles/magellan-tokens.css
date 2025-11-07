@@ -1,0 +1,22 @@
+:root {
+  --color-magellan: #03a5c0;
+  --color-magellan-600: #028fae;
+}
+
+/* Utility button styles using Magellan accent (outline by default) */
+.btn-magellan {
+  background: transparent;
+  color: var(--color-magellan);
+  border: 1.5px solid var(--color-magellan);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+.btn-magellan:hover {
+  background: var(--color-magellan);
+  color: #ffffff;
+}
+.btn-magellan:focus-visible {
+  outline: 3px solid rgba(3,165,192,0.18);
+  outline-offset: 2px;
+}
